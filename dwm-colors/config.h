@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Iosevka:size=11","FontAwesome:size=12","Material Design Icons:size=12", "Noto Sans Devanagari:size=11"};
+static const char *fonts[]          = { "Iosevka:size=11","FontAwesome:size=12","Material Design Icons:size=12"};
 static const char dmenufont[]       = "Iosevka:size=11";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
@@ -20,7 +20,7 @@ static char *colors[][3] = {
 };
 
 /* tagging */
-static const char *tags[] = { "१", "२", "३", "४", "५", "६", "७", "८", "९" };
+static const char *tags[] = { "󰋜", "󰊯", "󰝚", "󰊗", "󰩹", "󰒓" };
 
 static const Rule rules[] = {
 	/* xprop(1):
